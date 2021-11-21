@@ -37,5 +37,5 @@ or
 ```
 4. Start dev server (also opens default browser)
 ```
-  npm run dev -->
-```
+  npm run dev 
+```-->
