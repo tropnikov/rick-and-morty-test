@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000;
+}
+
+.App-content {
+  max-width: 860px;
+  margin: 90px auto;
+}
+
+.App-search {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.App-cards {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-dir: colunm; */
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+  list-style-type: none;
+  margin-bottom: 48px;
+  padding-left: 10px;
+}
+
+.li-item {
+  margin: 0;
+  padding: 0;
+}
