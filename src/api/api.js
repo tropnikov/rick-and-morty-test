@@ -21,6 +21,4 @@ class Api {
     return data;
   }
 }
-const api = new Api('https://rickandmortyapi.com/api');
-
-export default api;
+export const api = new Api('https://rickandmortyapi.com/api');

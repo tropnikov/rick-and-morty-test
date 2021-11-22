@@ -1,7 +1,7 @@
-import Card from '../Card/Card';
+import { Card } from '../Card/Card';
 import './Season.css';
 
-function Season(props) {
+export const Season = (props) => {
   return (
     <>
       <p className="Season-title">{`Season ` + props.title}</p>
@@ -22,6 +22,4 @@ function Season(props) {
       </ol>
     </>
   );
-}
-
-export default Season;
+};

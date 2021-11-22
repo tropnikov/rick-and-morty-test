@@ -1,7 +1,13 @@
 import './Input.css';
 
-const Input = ({ placeholder }) => {
-  return <input type="text" className="Input" placeholder={placeholder} />;
+export const Input = ({ filter, placeholder, handleChange }) => {
+  return (
+    <input
+      value={filter}
+      type="text"
+      className="Input"
+      placeholder={placeholder}
+      onChange={handleChange}
+    />
+  );
 };
-
-export default Input;

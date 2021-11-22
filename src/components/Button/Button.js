@@ -1,7 +1,5 @@
 import './Button.css';
 
-function Button({ title }) {
+export const Button = ({ title }) => {
   return <button className="Button">{title}</button>;
-}
-
-export default Button;
+};
