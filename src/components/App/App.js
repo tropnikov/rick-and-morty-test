@@ -5,6 +5,7 @@ import api from '../../api/api';
 // import Card from '../Card/Card';
 import CardsContext from '../../context/CardsContext';
 import Season from '../Season/Season';
+import Button from '../Button/Button';
 
 const App = () => {
   const [cards, setCards] = useState({});
@@ -24,16 +25,19 @@ const App = () => {
   return (
     <CardsContext.Provider value={cards}>
       <div className="App">
+        <h1 className="App-title">Rick and Morty episodes catalogue</h1>
         <div className="App-content">
           <div className="App-search">
-            <Input
-              placeholder="Введите название"
-              handleChange={console.log('im typing')}
-            />
+            <Input placeholder="Введите название" />
+            <Button title="Поиск" />
           </div>
           <ul className="App-cards">
             {Object.keys(cards).map((item) => {
-              return <Season title={item} episodes={cards[`${item}`]} />;
+              return (
+                <li className="App-season">
+                  <Season title={item} episodes={cards[item]} />
+                </li>
+              );
             })}
           </ul>
         </div>

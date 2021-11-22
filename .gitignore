@@ -11,3 +11,9 @@
 # production
 /build
 
+# configs
+.eslintrc
+.prettierrc
+.editorconfig
+
+

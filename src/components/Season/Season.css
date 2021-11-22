@@ -1,4 +1,16 @@
-.Season-list {
+.Season-title {
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000;
+  font-weight: 600;
+}
+
+.Season-episodes-list {
   display: flex;
   flex-wrap: wrap;
+  align-self: start;
+  padding-left: 60px;
+  list-style-type: none;
 }

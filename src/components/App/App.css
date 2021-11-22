@@ -17,17 +17,19 @@
 
 .App-cards {
   display: flex;
-  flex-wrap: wrap;
-  /* flex-dir: colunm; */
   flex-direction: column;
-  /* justify-content: space-between; */
-  align-items: flex-start;
+  justify-content: space-between;
   list-style-type: none;
   margin-bottom: 48px;
-  padding-left: 10px;
+  padding: 0;
 }
 
-.li-item {
+.App-season {
   margin: 0;
   padding: 0;
+  padding-bottom: 20px;
+}
+
+.App-title {
+  margin: 30px auto;
 }

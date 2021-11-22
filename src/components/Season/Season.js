@@ -3,9 +3,9 @@ import './Season.css';
 
 function Season(props) {
   return (
-    <li>
-      <p>{props.title}</p>
-      <ol className="Season-list">
+    <>
+      <p className="Season-title">{`Season ` + props.title}</p>
+      <ol className="Season-episodes-list">
         {props.episodes.map((item) => {
           return (
             <li>
@@ -20,7 +20,7 @@ function Season(props) {
           );
         })}
       </ol>
-    </li>
+    </>
   );
 }
 

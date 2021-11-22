@@ -7,9 +7,9 @@ function Card({ date, title, episode }) {
 
   return (
     <div className="Card">
+      <p className="Card__episode">{episode}</p>
       <p className="Card__title">{title}</p>
       <p className="Card__date">{date}</p>
-      <p className="Card__episode">{episode}</p>
     </div>
   );
 }
