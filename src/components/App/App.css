@@ -10,8 +10,8 @@
 }
 
 .App-search {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   margin-bottom: 24px;
 }
 

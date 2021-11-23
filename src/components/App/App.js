@@ -5,7 +5,7 @@ import { api } from '../../api/api';
 // import Card from '../Card/Card';
 import CardsContext from '../../context/CardsContext';
 // import Season from '../Season/Season';
-import { Button } from '../Button/Button';
+// import { Button } from '../Button/Button';
 import { Seasons } from '../Seasons/Seasons';
 
 const App = () => {
@@ -40,10 +40,9 @@ const App = () => {
           <div className="App-search">
             <Input
               value={filter}
-              placeholder="Введите название"
+              placeholder="Fast filter by episode title"
               handleChange={handleChange}
             />
-            <Button title="Поиск" />
           </div>
           <ul className="App-cards">
             <Seasons cards={filteredCards} />

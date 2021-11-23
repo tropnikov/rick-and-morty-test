@@ -2,14 +2,19 @@
 
 ## Description
 
+Rick and Morty episodes list grouped by season. You can filter episodes by episode title. Each episode's page contains additional info: characters, location (under development for now).
 
 ## Features:
+
+- React, Hooks, Context
+- Routing with React Router
+- Webpack with Babel setup
 
 ## Stack
 - HTML
 - CSS
 - JavaScript
-- React: React Hooks, Context
+- React: React Hooks, Context, React Router
 - API https://rickandmortyapi.com/
 - Webpack
 - Babel
@@ -17,11 +22,11 @@
 - Autoprefixer
 
 
-<!-- ## Try it out
+## Try it out
 
-GitHub Pages (not ready yet): https://tropnikov.github.io/rick-and-morty-test
+<!-- GitHub Pages (not ready yet): https://tropnikov.github.io/rick-and-morty-test
 
-or
+or -->
 
 1. Clone repository to your machine
 ```
@@ -38,4 +43,4 @@ or
 4. Start dev server (also opens default browser)
 ```
   npm run dev 
-```-->
+```
