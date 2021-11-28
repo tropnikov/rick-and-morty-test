@@ -20,5 +20,16 @@ class Api {
 
     return data;
   }
+
+  getCharacterInfo(link) {
+    return fetch(link, {
+      method: 'GET',
+    }).then((response) => {
+      return response.ok
+        ? response.json()
+        : Promise.reject(`Ошибка: ${response.status}`);
+    });
+  }
 }
+
 export const api = new Api('https://rickandmortyapi.com/api');

@@ -1,0 +1,11 @@
+.Character-content {
+}
+.Character-image {
+  width: 150px;
+}
+.Character-name {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 10px;
+}

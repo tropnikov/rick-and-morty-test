@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Card } from '../Card/Card';
 import './Season.css';
 
@@ -9,13 +10,15 @@ export const Season = (props) => {
         {props.episodes.map((item) => {
           return (
             <li>
-              <Card
-                key={item.id}
-                number={item.id}
-                date={item.air_date}
-                title={item.name}
-                episode={item.episode}
-              />
+              <Link className="Season-link-to-card" to={item.episode}>
+                <Card
+                  key={item.id}
+                  number={item.id}
+                  date={item.air_date}
+                  title={item.name}
+                  episode={item.episode}
+                />
+              </Link>
             </li>
           );
         })}

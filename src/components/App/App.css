@@ -4,26 +4,6 @@
   color: #000;
 }
 
-.App-content {
-  max-width: 860px;
-  margin: 90px auto;
-}
-
-.App-search {
-  /* display: flex; */
-  /* justify-content: space-between; */
-  margin-bottom: 24px;
-}
-
-.App-cards {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  list-style-type: none;
-  margin-bottom: 48px;
-  padding: 0;
-}
-
 .App-title {
   margin: 30px auto;
 }

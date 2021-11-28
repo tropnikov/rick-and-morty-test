@@ -1,0 +1,56 @@
+.Episode-content {
+  max-width: 860px;
+  margin: 60px auto;
+}
+.Episode-info {
+  width: 80%;
+  font-size: 16px;
+  /* text-align: left; */
+  margin: 0 auto;
+}
+.Episode-character {
+  width: 160px;
+  /* font-size: 14px; */
+  /* text-align: left; */
+  margin-top: 20px;
+  /* cursor: pointer; */
+}
+
+.Episode-characters {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Episode-title {
+  font-weight: 700;
+  /* width: 80%; */
+  margin: 0;
+  margin: 5px 0;
+}
+
+.Episode-air-date {
+  color: #767676;
+  /* width: 80%; */
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.Episode-episode-number {
+  color: #2c2c2c;
+  /* width: 80%; */
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+.Episode-characters-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-self: center; */
+  justify-content: center;
+  /* padding-left: 60px; */
+  padding: 0;
+  margin: 0 auto;
+  list-style-type: none;
+}
